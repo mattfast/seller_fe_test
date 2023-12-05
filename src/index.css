@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Switzer';
+  src: url('./fonts/Switzer-Variable.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BabasNeue';
+  src: url('./fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT America';
+  src: url('./fonts/GT\ America\ Extended\ Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT America';
+  src: url('./fonts/GT\ America\ Extended\ Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}

@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+
+}
+
+.landingPageBackground {
+  background-image: url("../public/assets/background_image2.png");
+  background-repeat: no-repeat;
+  /*background-size: 130%;*/
+  background-size: 2000px;
+  background-position: center 0px;
+  height: 110vh;
+
+}
+
+@font-face {
+  font-family: 'Hobeaux';
+  src: url('./fonts/Hobeaux-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik One';
+  src: url('./fonts/RubikOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes fadeEffect {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.wordCycle {
+  animation: fadeEffect 3s infinite;
+  display: inline;
+}
+
+.overallContainer {
+  height: 100dvh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+}
+
+.signupButton:active {
+  /*  Making button bigger on hover  */
+  transform: scale(1.05) perspective(1px);
+}
+
+.loginButton:active {
+  /*  Making button bigger on hover  */
+  transform: scale(1.05) perspective(1px);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .signupButton:hover { transform: scale(1.05) perspective(1px); }
+  .loginButton:hover { transform: scale(1.05) perspective(1px); }
+}

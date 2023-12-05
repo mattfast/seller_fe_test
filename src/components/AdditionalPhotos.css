@@ -1,0 +1,22 @@
+.additionalPhotosContainer {
+  border: 1px solid black;   /* 1px black border */
+  border-radius: 8px;        /* Border radius of 8px */
+  display: flex;             /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute items with space between */
+  gap: 25px;                 /* 25px space between items */
+  padding: 20px;
+  /*width: 850px;              /* Width of 850px 
+  height: 167px;             /* Height of 167px */
+}
+
+.additionalPhoto {
+  position: relative;
+  border: 1px dashed black;  /* 1px dashed black border */
+  border-radius: 8px;        /* Border radius of 8px */
+  display: flex;             /* Use flexbox for layout */
+  justify-content: center;   /* Center content horizontally */
+  align-items: center;       /* Center content vertically */
+  width: 140px;              /* Width of 140px */
+  height: 140px;             /* Height of 140px */
+  object-fit: contain;       /* Object fit to contain */
+}
